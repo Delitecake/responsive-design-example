@@ -1,0 +1,264 @@
+html, *{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: #ececec;
+}
+
+#wrapper{
+max-width: 1000px;
+min-height: 500px;
+background-color: #ffffff;
+position: relative;
+margin: 0 auto;
+background-image: url(images/bg.png);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(163,163,163,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(163,163,163,1);
+box-shadow: 0px 0px 5px 0px rgba(163,163,163,1);
+}
+
+#header{
+background-image: url(images/header.png);
+max-width: 1000px;
+height: 366px;
+}
+
+#content{
+width: 760px;
+height: 100%;
+background-color: #ffffff;
+float: left;
+padding: 20px;
+font-family: Helvetica, Verdana;
+font-size: 13px;
+letter-spacing: 150%;
+line-height: 150%;
+color: #0c0c0c;
+}
+
+h1{
+font-family: Helvetica, Verdana;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 100;
+color: #404040;
+border-left: 20px solid #255da4;
+padding-left: 10px;
+margin-bottom: 15px;
+}
+
+h2{
+font-family: Helvetica, Verdana;
+font-size: 17px;
+text-transform: uppercase;
+font-weight: 500;
+color: #404040;
+border-left: 40px solid #80b4dd;
+padding-left: 10px;
+margin-bottom: 15px;
+}
+
+h4{
+font-family: Helvetica, Verdana;
+font-size: 17px;
+text-transform: uppercase;
+font-weight: 500;
+color: #ffffff;
+border-left: 20px solid #80b4dd;
+padding-left: 10px;
+margin-bottom: 15px;
+}
+
+h5{
+font-family: Helvetica, Verdana;
+font-size: 17px;
+text-transform: uppercase;
+font-weight: 500;
+color: #404040;
+border-left: 20px solid #255da4;
+padding-left: 10px;
+display: block;
+background-color: #e3ebfa;
+margin-bottom: 10px;
+}
+
+h6{
+font-family: Helvetica, Verdana;
+font-size: 15px;
+text-transform: lowercase;
+font-weight: 500;
+color: #404040;
+text-align: right;
+padding-right: 10px;
+display: block;
+background-color: #e3ebfa;
+margin-bottom: 0px;
+margin-top: 10px;
+}
+
+#footerlinks{
+padding: 20px;
+width: 470px;
+float: left;
+}
+
+strong{
+color: #255da4;
+font-weight: bold;
+}
+
+strike{
+color: #939393;
+}
+
+u{
+text-decoration: underline;
+color: #40587b;
+}
+
+em{
+color: #49c1f5;
+}
+
+#footershouti {
+padding: 20px;
+width: 450px;
+float: right;
+font-family: Helvetica, Verdana;
+font-size: 13px;
+letter-spacing: 150%;
+line-height: 150%;
+color: white;
+}
+
+#clear{clear: both;}
+
+#navigation{
+width: 200px;
+min-height: 200px;
+background-color: #b1c2e3;
+float: right;
+padding-bottom: 15px;
+}
+
+h3
+{
+display: block;
+background-color: #e3ebfa;
+font-family: Helvetica, Verdana;
+font-size: 20px;
+font-weight: 100;
+text-transform: uppercase;
+border-left: 20px solid #255da4;
+padding-left: 10px;
+color: #404040;
+margin-bottom: 10px;
+}
+
+li{text-decoration: none;
+list-style-type: none;
+margin-bottom: 1px;}
+
+#newsbox li a {
+display: block;
+font-family: Helvetica, Verdana;
+font-size: 13px;
+letter-spacing: 150%;
+line-height: 150%;
+background-color: #e3ebfa;
+width: 180px;
+color: #1f242d;
+margin: 0 auto;
+text-decoration: none;
+text-align: center;
+}
+
+#newsbox li a:hover{
+display: block;
+background-color: #ffffff;
+width: 180px;
+font-family: Helvetica, Verdana;
+font-size: 13px;
+letter-spacing: 150%;
+line-height: 150%;
+font-style: italic;
+color: #112a87;
+margin: 0 auto;
+text-decoration: none;
+text-align: center;
+}
+
+#newsbox{
+margin-top: 17px;
+}
+
+p{
+margin-bottom: 15px;
+}
+
+blockquote{
+padding: 20px;
+background-color: #c1d7ed;
+width: 600px;
+border: 1px solid #c0c0c0;
+margin: 0 auto;
+margin-bottom: 15px;
+}
+
+#newsskin{
+background-color: #c1d7ed;
+width: 640px;
+border: 1px solid #c0c0c0;
+margin: 0 auto;
+margin-bottom: 15px;
+}
+
+#newsicon{
+background-color: red;
+width: 100px;
+height: 100px;
+margin: 5px;
+float: left;
+}
+
+#newsupdate{
+width: 510px;
+float: right;
+padding: 5px;
+background-color: #e3ebfa;
+height: 90px;
+margin: 5px;
+font-family: Helvetica, Verdana;
+font-size: 13px;
+letter-spacing: 150%;
+line-height: 150%;
+}
+
+#newsupdate p{
+padding-bottom: 0px;
+margin-bottom: 3px;
+}
+
+#newscontent{
+font-family: Helvetica, Verdana;
+font-size: 13px;
+letter-spacing: 150%;
+line-height: 150%;
+padding: 5px;
+margin-top: 110px;
+}
+
+
+
+#footer{
+width: 1000px;
+min-height: 120px;
+background-color: #255da4;
+clear: both;
+}
+
+#footer p {
+padding: -10px;
+}
